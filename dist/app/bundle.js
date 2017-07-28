@@ -10313,7 +10313,22 @@ var Board = function (_Component) {
                     ),
                     listDone
                 ),
-                _react2.default.createElement(_edit2.default, { add: this.add.bind(this) })
+                _react2.default.createElement(_edit2.default, { add: this.add.bind(this) }),
+                _react2.default.createElement(
+                    'footer',
+                    null,
+                    _react2.default.createElement(
+                        'span',
+                        null,
+                        'coded by yu-jen found source code on ',
+                        _react2.default.createElement(
+                            'a',
+                            { href: 'https://github.com/jamie3160003/To-do-list-ReactJS-', target: '_blank' },
+                            _react2.default.createElement('i', { className: 'fa fa-github-square', 'aria-hidden': 'true' })
+                        ),
+                        ' '
+                    )
+                )
             );
         }
     }]);
@@ -23274,7 +23289,7 @@ exports = module.exports = __webpack_require__(33)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);", ""]);
 
 // module
-exports.push([module.i, "form {\n  display: flex;\n  justify-content: center; }\n  form .input-box {\n    border-radius: 5px;\n    flex-basis: 50%;\n    padding-left: 10px;\n    margin-right: 10px; }\n  form .btn-primary {\n    color: #ffffff;\n    padding: 5px 15px;\n    border-radius: 10px;\n    font-family: \"Roboto Condensed\", sans-serif;\n    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);\n    background-color: #006dcc;\n    *background-color: #0044cc;\n    background-image: -moz-linear-gradient(top, #0088cc, #0044cc);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));\n    background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);\n    background-image: -o-linear-gradient(top, #0088cc, #0044cc);\n    background-image: linear-gradient(to bottom, #0088cc, #0044cc);\n    background-repeat: repeat-x;\n    border-color: #0044cc #0044cc #002a80;\n    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);\n    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }\n", ""]);
+exports.push([module.i, "form {\n  display: flex;\n  justify-content: center;\n  margin-bottom: 20px; }\n  form .input-box {\n    border-radius: 5px;\n    flex-basis: 50%;\n    padding-left: 10px;\n    margin-right: 10px; }\n  form .btn-primary {\n    color: #ffffff;\n    padding: 5px 15px;\n    border-radius: 10px;\n    font-family: \"Roboto Condensed\", sans-serif;\n    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);\n    background-color: #006dcc;\n    *background-color: #0044cc;\n    background-image: -moz-linear-gradient(top, #0088cc, #0044cc);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));\n    background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);\n    background-image: -o-linear-gradient(top, #0088cc, #0044cc);\n    background-image: linear-gradient(to bottom, #0088cc, #0044cc);\n    background-repeat: repeat-x;\n    border-color: #0044cc #0044cc #002a80;\n    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);\n    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }\n", ""]);
 
 // exports
 
@@ -23448,7 +23463,7 @@ exports = module.exports = __webpack_require__(33)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Lobster);", ""]);
 
 // module
-exports.push([module.i, "/*font-family*/\n.board {\n  background-color: #d9d9d9;\n  border-radius: 5px;\n  box-shadow: 5px 5px 5px #333333;\n  padding: 20px;\n  color: #1a1a1a;\n  width: 350px;\n  margin: 3% auto; }\n  .board .title {\n    font-family: \"Lobster\", cursive;\n    text-align: center;\n    border-bottom: 5px #663300 solid;\n    border-radius: 3px;\n    padding-bottom: 10px; }\n  .board .none {\n    display: none; }\n  .board .display {\n    font-family: \"Lobster\", cursive;\n    display: block;\n    text-align: center;\n    padding-bottom: 10px;\n    border-bottom: #663300 solid 5px; }\n", ""]);
+exports.push([module.i, "/*font-family*/\n.board {\n  background-color: #d9d9d9;\n  border-radius: 5px;\n  box-shadow: 5px 5px 5px #333333;\n  padding: 20px;\n  color: #1a1a1a;\n  width: 350px;\n  margin: 3% auto;\n  position: relative; }\n  .board .title {\n    font-family: \"Lobster\", cursive;\n    text-align: center;\n    border-bottom: 5px #663300 solid;\n    border-radius: 3px;\n    padding-bottom: 10px; }\n  .board .none {\n    display: none; }\n  .board .display {\n    font-family: \"Lobster\", cursive;\n    display: block;\n    text-align: center;\n    padding-bottom: 10px;\n    border-bottom: #663300 solid 5px; }\n  .board footer {\n    display: flex;\n    font-family: \"Lobster\", cursive;\n    justify-content: center;\n    position: absolute;\n    width: 100%;\n    bottom: 2px;\n    left: 0; }\n    .board footer span a, .board footer span a:active, .board footer span a:hover {\n      color: #1a1a1a; }\n", ""]);
 
 // exports
 
